@@ -7,6 +7,12 @@
     padding: 1.5rem;
     margin: 1rem;
     text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   }
   
   .project-card img {
@@ -33,6 +39,6 @@
   }
   
   .project-card a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   

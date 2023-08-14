@@ -485,7 +485,13 @@ const projectsData = [
     link: 'https://example.com/project1',
   },
   {
-    title: 'Project 2',
+    title: 'Project 3',
+    description: 'Description of Project 1',
+    imageUrl: 'project1.jpg',
+    link: 'https://example.com/project1',
+  },
+  {
+    title: 'Project 4',
     description: 'Description of Project 1',
     imageUrl: 'project1.jpg',
     link: 'https://example.com/project1',

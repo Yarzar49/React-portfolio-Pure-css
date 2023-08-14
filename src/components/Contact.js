@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Contact.css';
+import '../Animation.css';
 
 const Contact = () => {
   return (
@@ -7,7 +8,7 @@ const Contact = () => {
       <h2>Contact</h2>
       <p>
         Want to get in touch? Feel free to reach out to me at{' '}
-        <a href="maYilto:yarzarfcb@gmail.com">yarzarfcb@gmail.com</a>.
+        <a href="maYilto:yarzarfcb@gmail.com" className='button'>yarzarfcb@gmail.com</a>.
       </p>
     </section>
   );

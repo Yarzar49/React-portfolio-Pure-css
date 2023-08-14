@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Skills.css';
+import '../Animation.css';
 
 const Skills = () => {
   const skills = ['React', 'JavaScript', 'HTML', 'CSS', 'Git'];
@@ -9,7 +10,7 @@ const Skills = () => {
       <h2>Skills</h2>
       <ul className="skills-list">
         {skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
+          <li key={index} className='button'>{skill}</li>
         ))}
       </ul>
     </section>

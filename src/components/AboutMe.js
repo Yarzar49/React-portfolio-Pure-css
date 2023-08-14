@@ -1,5 +1,7 @@
 import React from 'react';
 import '../AboutMe.css';
+
+
 const AboutMe = () => {
   return (
     <section className="about-section" id="about">
